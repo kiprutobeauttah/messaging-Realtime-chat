@@ -1,0 +1,23 @@
+loaded_h_0(function(_){var window=this;
+_.cjd=function(a,b){return _.qj(a,1,b)};_.djd=function(a,b){return _.ti(a,2,b)};_.ejd=function(a,b){return _.bh(a,3,b)};_.fjd=_.fc(_.SE);_.gjd=_.fc(_.VE);
+_.t("NO84gd");
+
+_.u();
+_.t("b5lhvb");
+var U8f=function(a){return a instanceof _.th?a.getRoot().el():a},V8f=class extends _.m{constructor(a){super(a)}getViewerType(){return _.Fj(this,1)}qq(a){return _.Th(this,1,a)}},W8f=function(a,b){var c=a.Aa.get(b);if(c)return c;c=new Map;a.Aa.set(b,c);return c},X8f=async function(a,b,c){try{a.oa.delete(c.getIdentifier());const d=W8f(a,c.getIdentifier()),e=d.size===0;d.set(b,c);if(e){let f,g;_.y(await _.y((g=(f=a.listener).j1d)==null?void 0:g.call(f,c.getIdentifier())))}else{let f,g;_.y(await _.y((g=
+(f=a.listener).D6c)==null?void 0:g.call(f,c.getIdentifier())))}}finally{_.y()}},Y8f=async function(a,b,c){try{a.oa.delete(c.getIdentifier());W8f(a,c.getIdentifier()).set(b,c);let d,e;_.y(await _.y((e=(d=a.listener).D6c)==null?void 0:e.call(d,c.getIdentifier())))}finally{_.y()}},Z8f=async function(a,b,c){try{a.oa.delete(c);const d=W8f(a,c);d.delete(b);if(d.size===0){a.Aa.delete(c);let e,f;_.y(await _.y((f=(e=a.listener).yaf)==null?void 0:f.call(e,c)))}else{let e,f;_.y(await _.y((f=(e=a.listener).D6c)==
+null?void 0:f.call(e,c)))}}finally{_.y()}},$8f=class{constructor(a){this.listener=a;this.Aa=new Map;this.oa=new Map}apa(a){if(this.oa.has(a))return this.oa.get(a);var b;if((b=this.Aa.get(a))&&b.size!==0)return b.size===1?b=b.values().next().value:(b=[...b.entries()].sort((c,d)=>_.cn(U8f(c[0]),U8f(d[0]))).map(c=>c[1]).flatMap(c=>c.Aa()),b=_.cjd(_.ejd(new _.VE,a),b)),this.oa.set(a,b),b}},a9f=!!(_.Ci[38]>>21&1);var b9f=function(a,b){a.Iob.has(b)||a.Iob.set(b,(0,_.Fo)(()=>{a.J$a(b)},1E3))};
+_.Yf(_.lZa,class extends _.Qo{static Sa(){return{service:{JYa:_.D8f,yOa:_.C8f}}}constructor(a){super();this.Hnb=new $8f(this);this.SYb=new Set;this.IJc=new Set;this.Iob=new Map;this.JYa=a.service.JYa;this.yOa=a.service.yOa;this.l3a().then(b=>{b.W9d(c=>this.Hnb.apa(c))})}async j1d(){try{if(!a9f){const a=_.y(await _.y(this.l3a()));_.A8f();a.dzb()}}finally{_.y()}}registerStream(a,b){this.SYb.has(b.getIdentifier())&&b9f(this,b.getIdentifier());return X8f(this.Hnb,a,b)}vhe(a,b){this.SYb.has(b.getIdentifier())&&
+b9f(this,b.getIdentifier());return Y8f(this.Hnb,a,b)}S3b(a,b){this.SYb.has(b)&&b9f(this,b);return Z8f(this.Hnb,a,b)}async YDa(a){try{const b=_.y(await _.y(this.l3a()));a9f&&(_.A8f(),b.dzb());b.kkc(a)}finally{_.y()}}async navigateToView(a){try{const l=_.y(await _.y(this.apa(a)));if(l){var b=l.Aa().findIndex(p=>p.QP()===a.historyId);if(b!==-1){_.djd(l,b);var c=a.resultElement;c.id||(c.id=_.tz());this.SYb.add(a.streamId);this.Iob.has(a.streamId)&&((0,_.Go)(this.Iob.get(a.streamId)),this.Iob.delete(a.streamId));
+var d=_.y(await _.y(this.l3a())),e,f,g,h,k;_.y(await _.y(d.Ugb(l,null,(e=a.Xfa)!=null?e:null,(f=a.cxc)!=null?f:null,(g=a.interactionVed)!=null?g:null,(h=a.interactionContext)!=null?h:null,(k=a.userAction)!=null?k:null,a.gsb,c.id)))}}}finally{_.y()}}async Brc(a){try{if(!this.IJc.has(a)){this.IJc.add(a);var b=_.O8f(),c=b.sendMessage,d=new _.K8f,e=(new V8f).qq(a);var f=_.pj(d,15,_.qQ,e);_.y(await _.y(c.call(b,f)))}}finally{_.y()}}async J$a(a){try{const b=_.y(await _.y(this.l3a()));this.Iob.delete(a);
+let c=this.Hnb.apa(a);c||(c=_.ejd(new _.VE,a));_.y(await _.y(b.J$a(c)))}finally{_.y()}}l3a(){return this.JYa.l3a()}apa(a){return _.Ajd?a.stream:this.Hnb.apa(a.streamId)}});
+_.u();
+_.t("IoGlCf");
+_.Nid=new _.Wf(_.mZa);
+_.u();
+_.t("a6xXfd");
+_.Yf(_.w0a,class extends _.Qo{static Sa(){return{service:{P4b:_.Nid}}}constructor(a){super();this.P4b=a.service.P4b}async registerStream(a,b){try{const c=(0,_.gjd)(b!=null?b:"");_.y(await _.y(this.P4b.registerStream(a,c)))}finally{_.y()}}navigateToView(a){var b=this.P4b,c=b.navigateToView,d;const e=(0,_.gjd)((d=a.stream)!=null?d:"");_.aj(e,_.SE,1)>0?(d=e.Aa()[0],d=_.A(d,5)):d=void 0;a={streamId:a.streamId,historyId:a.historyId,resultElement:a.resultElement,cxc:d,Icf:d&&_.TSa(d),interactionVed:_.Qe(a.resultElement),
+gsb:Date.now(),stream:e};return c.call(b,a)}});
+_.u();
+});
+// Google Inc.
