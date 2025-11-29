@@ -1,0 +1,10 @@
+loaded_h_0(function(_){var window=this;
+_.IJf=class extends _.m{constructor(a){super(a)}};_.JJf=class extends _.m{constructor(a){super(a)}};
+_.EJf=function(a,b){return _.ti(a,3,b)};_.FJf=function(a,b){return _.Th(a,2,b)};_.HJf=class extends _.m{constructor(a){super(a)}Aa(a){return _.pj(this,5,_.GJf,a)}};_.GJf=[5,6];
+_.t("Kqhykb");
+var xkz=function(a,b){a=_.soa(a.getContext(0));try{const c=b();if(c)return _.qpa(c)}finally{_.Gf(a)}},ykz=function(a,b){return _.Ak(a,1,b)},zkz=class extends _.m{constructor(a){super(a)}},Akz=function(){var a=new _.JJf;var b=new zkz;b=_.Vh(b,2,!0);return _.qj(a,1,[b])};var Bkz=!!(_.Ci[68]&8192);
+_.ag(class{constructor(){this.Aa=new _.Zoa;this.Ba=!1;this.logger=null}async canShowPromotion(a){return Bkz&&this.Ba?Promise.resolve(!1):this.oa([a]).then(b=>{b=_.nj(b,zkz,1)[0];return!_.z(b,2)})}async oa(a){try{try{return _.y(await _.y(xkz(this.Aa,()=>_.dpa(_.gpa(_.QYa))))).oa(ykz(new _.IJf,a))}catch(b){_.y()}return Akz()}finally{_.y()}}async Q7a(a,b){try{try{return _.y(await _.y(xkz(this.Aa,()=>_.dpa(_.gpa(_.QYa))))).Q7a(_.FJf(_.EJf(new _.HJf,a),b))}catch(c){_.y()}}finally{_.y()}}async recordPromoShown(a){this.Ba=!0;
+return this.Q7a(a,1)}async recordPromoDismissed(a){return this.Q7a(a,3)}async recordPromoAccept(a){return this.Q7a(a,2)}},_.TYa);
+_.u();
+});
+// Google Inc.
